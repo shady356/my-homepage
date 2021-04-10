@@ -9,5 +9,9 @@
 </template>
 
 <style lang="scss">
-
+  body {
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
 </style>
