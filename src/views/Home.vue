@@ -32,8 +32,8 @@ export default {
   height: 100vh;
 
   .intro-text {
-    color: $white-blue;
     font-weight: 600;
+    
     .small-title {
       font-size: $font-l;
       letter-spacing: 0.2rem;

@@ -15,9 +15,4 @@
     margin: 0;
     padding: 0;
   }
-  body {
-    background: #fff;
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-  }
 </style>
