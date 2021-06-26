@@ -26,7 +26,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.home-page-container {
+  background: $sky-gradient;
+  width: 100%;
+  height: 100vh;
+
   .intro-text {
+    color: $white-blue;
+    font-weight: 600;
     .small-title {
       font-size: $font-l;
       letter-spacing: 0.2rem;
@@ -46,7 +53,8 @@ export default {
     .separation-line {
       width: 94px;
       height: 2px;
-      background: #333;
+      background: $white-blue;
     }
   }
+}
 </style>
