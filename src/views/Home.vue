@@ -1,12 +1,19 @@
 <template>
-  <div class="home">
-    <div class="profile">
-     <!--  <img class="profile-picture" src="@/assets/profile.png" alt=""> -->
-      <h2 class="name">Hi, my name is Henrik Oddløkken</h2>
-      <p class="about-short">
-        I'm a frontend developer <br> specialising in interaction and UI -design
-      </p>
-      <button>Portfolio</button>
+  <div class="home-page-container">
+    <div class="intro-text">
+      <div class="medium-title">
+        Henrik Oddløkken
+      </div>
+      <div class="large-title">
+        Frontend developer
+      </div>
+      <div class="separation-line" />
+      <div class="small-title">
+        With a passion for
+      </div>
+      <div class="medium-title">
+        Interaction Design
+      </div>
     </div>
   </div>
 </template>
@@ -19,17 +26,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .profile-picture {
-    width: 256px;
-  }
-  .name {
-    font-size: 1.5rem;
-    margin: 0;
-    font-weight: 400;
-  }
-  .about-short {
-    margin: 0;
-    font-size: 2.3rem;
-    font-weight: bold;
+  .intro-text {
+    .small-title {
+      
+    }
+    .medium-title {
+
+    }
+    .large-title {
+
+    }
+    .separation-line {
+      width: 128px;
+      height: 2px;
+      background: #333;
+    }
   }
 </style>
