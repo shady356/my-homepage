@@ -28,16 +28,23 @@ export default {
 <style lang="scss" scoped>
   .intro-text {
     .small-title {
-      
+      font-size: $font-l;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
     }
     .medium-title {
-
+      font-size: $font-2xl;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
     }
     .large-title {
-
+      font-size: $font-5xl;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      
     }
     .separation-line {
-      width: 128px;
+      width: 94px;
       height: 2px;
       background: #333;
     }

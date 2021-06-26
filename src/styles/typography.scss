@@ -1,0 +1,76 @@
+$font-2xs: 0.5rem; // 8px
+$font-xs: 0.75rem; // 12px
+$font-s: 0.875rem; // 14px
+$font-m: 1rem; // 16px
+$font-l: 1.125rem; // 18px
+$font-xl: 1.25rem; // 20px
+$font-2xl: 1.5rem; // 24px
+$font-3xl: 1.75rem; // 28px
+$font-4xl: 2rem; // 32px
+$font-5xl: 2.5rem; // 36px
+
+body {
+  color: #1a1a1a;
+  font-size: $font-m;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  line-height: $font-l;
+}
+
+h1 {
+  font-size: $font-4xl;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+h2 {
+  font-size: $font-3xl;
+  font-weight: 700;
+  line-height: 2rem;
+}
+h3 {
+  font-size: $font-2xl;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+h4 {
+  font-size: $font-xl;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+h5 {
+  font-size: $font-l;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+h6 {
+  font-size: $font-s;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.micro-label {
+  font-size: $font-s;
+  font-weight: 700;
+  color: #7e7e7e;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.small-caps {
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
