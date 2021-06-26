@@ -1,6 +1,6 @@
 <template>
   <div class="home-page-container">
-    <div class="intro-text">
+    <div class="intro-text-container">
       <div class="medium-title">
         Henrik Oddløkken
       </div>
@@ -28,23 +28,28 @@ export default {
 <style lang="scss" scoped>
 .home-page-container {
   background: $sky-gradient;
-  width: 100%;
   height: 100vh;
 
-  .intro-text {
-    font-weight: 600;
+  .intro-text-container {
     
+    @include default-page-padding;
     .small-title {
-      font-size: $font-l;
+      font-weight: 400;
+      font-size: $font-m;
+      font-style: italic;
+      margin-bottom: $space-3xs;
       letter-spacing: 0.2rem;
       text-transform: uppercase;
     }
     .medium-title {
+      font-weight: 600;
       font-size: $font-2xl;
       letter-spacing: 0.2rem;
+      margin: $space-3xs 0;
       text-transform: uppercase;
     }
     .large-title {
+      font-weight: 700;
       font-size: $font-5xl;
       letter-spacing: 0.2rem;
       text-transform: uppercase;
@@ -53,6 +58,7 @@ export default {
     .separation-line {
       width: 94px;
       height: 2px;
+      margin: $space-m 0;
       background: $white-blue;
     }
   }

@@ -14,6 +14,9 @@ $space-4xl: 6rem; // 92px
 $space-5xl: 8rem; // 128px
 $space-6xl: 16rem; // 256px
 
-.default-page-margin {
-  margin: $space-l $space-m;
+$default-page-padding-vertical: 10%;
+$default-page-padding-horisontal: 8%;
+
+@mixin default-page-padding {
+  padding: $default-page-padding-vertical $default-page-padding-horisontal;
 }
